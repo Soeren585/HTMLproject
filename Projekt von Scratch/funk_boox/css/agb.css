@@ -1,0 +1,15 @@
+body {
+    color: white;
+}
+
+ol li {
+    font-weight: bold;
+}
+
+a {
+    color: #fff4a3;
+    text-decoration: none;
+}
+
+ol li br {
+    margin-bottom: 1px;

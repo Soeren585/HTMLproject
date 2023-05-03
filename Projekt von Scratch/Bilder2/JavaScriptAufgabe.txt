@@ -1,0 +1,11 @@
+Ali Khorsandfard - DAA: react js 11:45
+Ali Khorsandfard - DAA: javascript array 11:50
+Ali Khorsandfard - DAA: javascript classes 11:50
+Ali Khorsandfard - DAA: javascipt function 11:50
+Ali Khorsandfard - DAA: ein js class zu baeun, generiert users 11:50
+Ali Khorsandfard - DAA: User class 11:50
+Ali Khorsandfard - DAA: id, email, password 11:51
+Ali Khorsandfard - DAA: empy login login()  function 11:51
+Ali Khorsandfard - DAA: createUser() 11:51
+Ali Khorsandfard - DAA: getUser() 11:51
+Ali Khorsandfard - DAA: listUsers() ein array von users 11:52

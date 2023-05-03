@@ -1,0 +1,167 @@
+body {
+    font-family: DejaVu Sans, Arial;
+    background-color: #1d2a35;
+    color: #dddddd;
+    display: grid;
+    height: 80%;
+    grid-template: auto 1fr auto / auto 1fr auto;
+    margin: 0% 10%;
+    background-image: url(../img/bg1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+header {
+    background: #049b63;
+    background-image: url(../img/logo_book.png);
+    background-repeat: no-repeat;
+    background-position: center left 35px;
+    background-size: 80px;
+    opacity: 0.9;
+    color: white;
+    grid-column: 1 / 4;
+    text-align: center;
+    min-height: 100px;
+    max-height: 100px;
+    box-shadow: 0px 15px 20px -20px black;
+}
+
+#boox {
+    font-family: DejaVu Serif;
+    font-size: 2em;
+}
+
+.menu-sidebar {
+    background: #15202b;
+    grid-column: 1 / 2;
+    max-width: 150px;
+    box-shadow: 5px 0px 15px -10px black;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0px
+}
+
+.menu li {
+    border-bottom: 1px solid #38444d;
+    color: #37e5a5;
+    height: 20px;
+}
+
+li a {
+    color: #dddddd;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #049b63;
+}
+
+#valid {
+    color: #fff4a3;
+    text-align: center;
+}
+
+#w3logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%
+}
+
+main {
+    grid-column: 2 / 3;
+    padding: 2%;
+    background:#1d2a35;
+}
+
+.unix {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.unix:hover {
+    color: #fff4a3;
+}
+
+.angebote li {
+    list-style-type: none;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #38444d;
+}
+
+li img {
+    float: left;
+    width: 90px;
+    margin-right: 2%;
+}
+
+footer {
+    background:  #049b63;
+    color: white;
+    padding: 1px;
+    text-align: center;
+    grid-column: 1 / 4;
+    opacity: 0.9;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff4a3;
+}
+
+label, button {
+    display: block;
+    margin: 1em;
+}
+
+.anzahl {
+    width: 40px;
+}
+
+input {	
+    background-color: #15202b;
+    border: 1px solid #38444d;
+    color:white;
+}
+
+.iframe {
+    width: 90%;
+    height: 85%;
+    margin-bottom: 35%;
+ }
+
+.euro:before {
+    content: '€';
+}
+
+.textfeld { 
+    height: 150px;
+    width: 250px;
+    background-color: #15202b;
+    color: white;
+    overflow-y: scroll;
+}
+
+#verlag {
+    height: 60px;
+    width: 150px;
+    overflow-y: scroll;
+    background-color: #15202b;
+    color: white;
+}
+
+#schlagw {
+    height: 100px;
+    width: 250px;
+    overflow-y: scroll;
+    background-color: #15202b;
+    color: white;
+}

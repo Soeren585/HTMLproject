@@ -1,0 +1,132 @@
+/* import von Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Bruno Ace SC', cursive;
+    /*font-family: "Federation"*/
+}
+body{
+    background: #dfe9f5;
+}
+main{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 50px;
+    padding-right: 5px;
+}
+p{
+    font-size: 20px;
+}
+nav{
+    padding-top: 45px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background: #fff;
+    width: 40px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.logo{
+    text-align: center;
+    display: flex;
+    transition: all 0.5s ease;
+    margin: 10px 0 0 10px;
+}
+.logo img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.logo2 img{
+    width: 20px;
+    height: 20px;
+}
+.logo span{
+    font-weight: bold;
+    padding-left:15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+a{
+    position: relative;
+    color: rgb(85,83,83);
+    font-size: 17px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+}
+.fad{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+.nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+
+}
+a:hover{
+    background: #eee;
+}
+nav:hover{
+    width: 280px;
+    transition: 0.5s ease;
+}
+/*.logoout{
+    position: absolute;
+    bottom: 0;
+}*/
+
+header{
+    padding-left: 45px;
+    position: fixed;
+    top: 0;
+    height: 45px;
+    left: 0;
+    background: #fff;
+    width: 100%;
+}
+
+footer{
+    padding-left: 45px;
+    position: fixed;
+    bottom: 0;
+    height: 45px;
+    left: 0;
+    background: #fff;
+    width: 100%;
+}
+.a1{
+    right:0;
+    top: 0;
+    position: fixed;
+    color: rgb(85,83,83);
+    font-size: 22px;
+    display: table-header-group;
+    width: 300px;
+    padding: 9px;
+}
+    .suche{
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 280px;
+    /*transition: width 0.5s ease-in-out;*/
+}
+    /*.suche:focus {
+    font-size: 20px;
+    width: 50%;
+}*/
