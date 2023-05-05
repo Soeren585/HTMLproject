@@ -35,6 +35,25 @@ nav{
     transition: width 0.2s linear;
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
 }
+.Banner{
+    padding-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.Banner img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.NameSpiel{
+    text-align: center;
+    font-size: 65px;
+    font-family: Federation;
+}
+p{
+    display: block;
+}
 .logo{
     text-align: center;
     display: flex;
@@ -93,11 +112,16 @@ nav:hover{
 header{
     padding-left: 45px;
     position: fixed;
-    top: 0;
     height: 45px;
+    top: 0;
     left: 0;
-    background: #fff;
+    background-color: #ffffff;
     width: 100%;
+    z-index: 999;
+    transition: opacity 0.5s ease-in-out;
+}
+header.scrolled {
+    opacity: 0.7;
 }
 
 footer{
@@ -116,15 +140,20 @@ footer{
     color: rgb(85,83,83);
     font-size: 22px;
     display: table-header-group;
-    width: 300px;
+    width: 370px;
     padding: 9px;
 }
-    .suche{
+.suche{
+    cursor: text;
     border: 1px solid #999;
     border-radius: 5px;
     font-size: 18px;
     width: 280px;
     /*transition: width 0.5s ease-in-out;*/
+}
+.senden{
+    cursor: pointer;
+    border-radius: 3px;
 }
     /*.suche:focus {
     font-size: 20px;
